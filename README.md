@@ -1,6 +1,6 @@
-# playground
+# Get_x full tutorial
 
-A new Flutter project.
+A new Flutter project of managing getx routing.
 
 ## Getting Started
 
