@@ -25,6 +25,10 @@ class Example extends StatelessWidget {
               child: Text("English"),
             ),
             SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => messageController.changeLanguage('hi', 'IN'),
+              child: Text("Hindi"),
+            ),
           ],
         ),
       ),
