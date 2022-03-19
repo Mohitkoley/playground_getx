@@ -4,6 +4,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:playground/getx_controller/view.dart';
 import 'package:playground/reactive_state_mangement.dart';
 import 'package:playground/simple_state_mangement.dart';
+import 'package:playground/theme/themes_example.dart';
 
 import 'translation/translation_example.dart';
 
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Translation();
+    return ThemeExample();
   }
 }
