@@ -12,7 +12,7 @@ class Example extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Theme Example')),
       body: Center(
-          child: Column(children: [
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         const Text('GetX theme', style: TextStyle(fontSize: 22)),
         const SizedBox(height: 10),
         ElevatedButton(
