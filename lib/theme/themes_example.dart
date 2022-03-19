@@ -11,6 +11,7 @@ class ThemeExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       //change thememMode instead of Theme
       themeMode: themeController.themeMode,
       darkTheme: Themes.darkTheme,
