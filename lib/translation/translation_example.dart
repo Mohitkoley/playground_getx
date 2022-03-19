@@ -9,6 +9,7 @@ class Translation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       translations: Message(),
       locale: Get.deviceLocale,
       fallbackLocale: Locale('en', 'US'),
