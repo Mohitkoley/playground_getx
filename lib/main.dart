@@ -4,6 +4,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:playground/getx_controller/view.dart';
 import 'package:playground/getx_service/service_example.dart';
 import 'package:playground/getx_service/settings_service.dart';
+import 'package:playground/getx_widget/getx_widget_example.dart';
 import 'package:playground/reactive_state_mangement.dart';
 import 'package:playground/simple_state_mangement.dart';
 import 'package:playground/theme/themes_example.dart';
@@ -30,6 +31,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ServiceExample();
+    return WidgetExample();
   }
 }
